@@ -326,6 +326,6 @@ app.post('/api/sendToken', (req, res) => {
     });
 })
 
-app.listen(1337, () => {
-    console.log(`Running server on port 1337`)
+app.listen(8080, () => {
+    console.log(`Running server on port 8080`)
 });
